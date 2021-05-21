@@ -19,8 +19,8 @@ def transform(image_file):
         text_pic = text_pic+'\r\n'
     return text_pic
 
-if __name__ == '__main__':
 
+if __name__ == '__main__':
     image_file = open(u'a.jpg','rb')
     image_file = Image.open(image_file)
     # image_file = image_file.resize((int(image_file.size[0] * 1), int(image_file.size[1] * 0.13)))  # 调整图片大小
